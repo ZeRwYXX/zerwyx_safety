@@ -260,10 +260,7 @@ RegisterNUICallback('action', function(data, cb)
 end)
 
 
-function triggerAction(action, identifier, x, y, z, code)
-    
-    TriggerServerEvent('zerwyx_chest:handleAction', action, identifier, x, y, z, code)
-end
+
 
 
 
